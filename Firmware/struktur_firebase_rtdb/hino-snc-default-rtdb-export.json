@@ -1,0 +1,111 @@
+{
+  "alerts": {
+    "ph_condition": "LOW",
+    "pompa_utama_error": false,
+    "suhu_condition": "NORMAL",
+    "tds_low": true
+  },
+  "calibration": {
+    "command": "",
+    "ph_acid_v": 1.94414,
+    "ph_is_calibrated": true,
+    "ph_neutral_v": 1.40824,
+    "status": "IDLE",
+    "status_message": "Kalibrasi 2-titik selesai!",
+    "tds_k_value": 0.97312,
+    "tds_target_ppm": 1000
+  },
+  "config": {
+    "nama_tanaman": "Sawi hijau",
+    "target_ph_max": 7.5,
+    "target_ph_min": 6,
+    "target_ppm_max": 1400,
+    "target_ppm_min": 1050,
+    "target_suhu_max": 30,
+    "target_suhu_min": 24
+  },
+  "controls": {
+    "mainPumpMode": 0,
+    "mode": "MANUAL",
+    "pompa_nutrisi_a": false,
+    "pompa_nutrisi_b": false,
+    "pompa_ph_down": false,
+    "pompa_ph_up": false,
+    "pompa_utama": false
+  },
+  "device_status": {
+    "is_online": true,
+    "last_seen": "20:16:01",
+    "mode": "AUTO"
+  },
+  "history": {
+    "2026-02-02": {
+      "avg_ph": 6.25,
+      "avg_suhu": 28,
+      "avg_tds": 1050
+    },
+    "2026-02-03": {
+      "avg_ph": 7.15,
+      "avg_suhu": 26.4,
+      "avg_tds": 998
+    },
+    "2026-02-04": {
+      "avg_ph": 6.25419,
+      "avg_suhu": 21,
+      "avg_tds": 316.71408
+    },
+    "2026-02-05": {
+      "avg_ph": 0,
+      "avg_suhu": 27.75,
+      "avg_tds": 139.91403,
+      "last_update": "01:40:47"
+    },
+    "2026-02-07": {
+      "avg_ph": 6.75742,
+      "avg_suhu": 26.9375,
+      "avg_tds": 1090.00708
+    },
+    "2026-02-08": {
+      "avg_ph": 7.12883,
+      "avg_suhu": 26.45369,
+      "avg_tds": 1093.3064
+    },
+    "2026-02-09": {
+      "avg_ph": 6.87777,
+      "avg_suhu": 27.1875,
+      "avg_tds": 1004.65344
+    },
+    "2026-02-10": {
+      "avg_ph": 6.75402,
+      "avg_suhu": 26.125,
+      "avg_tds": 280.5889
+    },
+    "2026-02-11": {
+      "avg_ph": 11.70922,
+      "avg_suhu": 29.6875,
+      "avg_tds": 874.34259
+    },
+    "2026-02-12": {
+      "avg_ph": 11.79848,
+      "avg_suhu": 32,
+      "avg_tds": 31.56855
+    },
+    "2026-02-16": {
+      "avg_ph": 7.14552,
+      "avg_suhu": 25,
+      "avg_tds": 864.78339
+    },
+    "2026-02-21": {
+      "avg_ph": 4.28196,
+      "avg_suhu": 27.1875,
+      "avg_tds": 0
+    }
+  },
+  "monitoring": {
+    "flow_status": true,
+    "last_update": "20:15:56",
+    "ph": 4.28196,
+    "ppm": 0,
+    "suhu": 27.1875
+  }
+}
